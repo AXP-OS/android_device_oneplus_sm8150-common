@@ -461,6 +461,3 @@ PRODUCT_BOOT_JARS += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
-
-# extendrom
-$(call inherit-product, vendor/extendrom/config/common.mk)
