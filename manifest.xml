@@ -182,15 +182,7 @@
             <instance>qti.ims.connectionmanagerservice</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>com.qualcomm.qti.uceservice</name>
-        <transport>hwbinder</transport>
-        <version>2.2</version>
-        <interface>
-            <name>IUceService</name>
-            <instance>com.qualcomm.qti.uceservice</instance>
-        </interface>
-    </hal>
+    
     <hal format="hidl">
         <name>vendor.display.color</name>
         <transport>hwbinder</transport>
@@ -349,16 +341,7 @@
             <instance>slot2</instance>
         </interface>
    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.data.iwlan</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IIWlan</name>
-            <instance>slot1</instance>
-            <instance>slot2</instance>
-        </interface>
-    </hal>
+    
     <hal format="hidl">
         <name>vendor.qti.hardware.data.latency</name>
         <transport>hwbinder</transport>
@@ -377,15 +360,7 @@
             <instance>dspservice</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.embmssl</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IEmbms</name>
-            <instance>embmsslServer0</instance>
-        </interface>
-    </hal>
+    
     <hal format="hidl">
         <name>vendor.qti.hardware.factory</name>
         <transport>hwbinder</transport>
@@ -533,24 +508,8 @@
             <instance>default</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.soter</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISoter</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.tui_comm</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ITuiComm</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
+    
+    
     <hal format="hidl">
         <name>vendor.qti.hardware.vpp</name>
         <transport>hwbinder</transport>
@@ -560,54 +519,10 @@
             <instance>vppService</instance>
         </interface>
     </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifi.wifilearner</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiStats</name>
-            <instance>wifiStats</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wifidisplaysession</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>IWifiDisplaySession</name>
-            <instance>wifidisplaysession</instance>
-        </interface>
-        <interface>
-            <name>IWifiDisplaySessionAudioTrack</name>
-            <instance>wifidisplaysessionaudiotrack</instance>
-        </interface>
-        <interface>
-            <name>IWifiDisplaySessionImageTrack</name>
-            <instance>wifidisplaysessionimagetrack</instance>
-        </interface>
-        <interface>
-            <name>IWifiDisplaySessionVideoTrack</name>
-            <instance>wifidisplaysessionvideotrack</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wigig.netperftuner</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>INetPerfTuner</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
-    <hal format="hidl">
-        <name>vendor.qti.hardware.wigig.supptunnel</name>
-        <transport>hwbinder</transport>
-        <version>1.0</version>
-        <interface>
-            <name>ISuppTunnelProvider</name>
-            <instance>default</instance>
-        </interface>
-    </hal>
+    
+    
+    
+    
     <hal format="hidl">
         <name>vendor.qti.ims.callinfo</name>
         <transport>hwbinder</transport>
