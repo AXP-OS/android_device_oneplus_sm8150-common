@@ -192,3 +192,5 @@ vendor.usb.use_gadget_hal=0
 
 # Zygote
 zygote.critical_window.minute=10
+
+ro.oem_unlock_supported=1
