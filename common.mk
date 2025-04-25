@@ -16,7 +16,6 @@ PRODUCT_PACKAGES += \
 
 # ANT+
 PRODUCT_PACKAGES += \
-    AntHalService-Soong \
     com.dsi.ant@1.0.vendor
 
 # Alert slider
@@ -25,7 +24,6 @@ PRODUCT_PACKAGES += \
     tri-state-key-calibrate
 
 # APEX
-$(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 
 # Atrace
 PRODUCT_PACKAGES += \
@@ -304,7 +302,6 @@ $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay-lineage
 
-PRODUCT_ENFORCE_RRO_TARGETS := *
 PRODUCT_PACKAGES += \
     CarrierConfigResCommon \
     FrameworksResTarget \
@@ -453,7 +450,6 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 PRODUCT_BOOT_JARS += \
-    WfdCommon
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/oneplus/sm8150-common/sm8150-common-vendor.mk)
